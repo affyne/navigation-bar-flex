@@ -14,11 +14,11 @@ nav {
 .navbar {
   display: flex;
   justify-content: flex-end;
+  list-style-type: none;
 }
 
 .navbar li {
   padding: 12px 20px;
-  list-style-type: none;
   font-weight: bold;
   color: white;
 }
@@ -34,5 +34,4 @@ nav {
 
 .navbar .navlink:hover {
   background-color: crimson;
-  color: black;
 }
