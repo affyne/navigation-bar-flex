@@ -11,31 +11,28 @@ nav {
   background-color: black;
 }
 
-.navbar-container {
+.navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
 }
 
-.date {
+.navbar li {
   padding: 12px 20px;
-  color: white;
-  font-weight: bold;
-}
-
-.navlinks ul {
-  display: flex;
   list-style-type: none;
+  font-weight: bold;
+  color: white;
 }
 
-.navlinks a {
-  display: block;
-  padding: 12px 20px;
+.navbar .date {
+  margin-right: auto;
+}
+
+.navbar a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
 }
 
-.navlinks a:hover {
+.navbar .navlink:hover {
   background-color: crimson;
+  color: black;
 }
